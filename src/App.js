@@ -10,8 +10,8 @@ function App() {
     [
      
       {
-        id: Math.random().toString(),
-        precio: 10.50
+        id: Math.random(),
+      
       }
     ]
   )
