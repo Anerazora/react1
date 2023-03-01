@@ -13,8 +13,7 @@ function Numero(props) {
         <div className='numero'>
             <div className='numero__descripcion'>
                
-                <div className='numero__numa'>{numa}</div>
-                <div className='numero__numb'>{numb}</div>
+                
                 <div className='numero__result'>{result}</div>
             </div>
             

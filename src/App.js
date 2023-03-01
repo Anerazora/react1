@@ -1,6 +1,8 @@
 import './App.css';
 import Numeros from './Components/Numeros/Numeros';
 import NuevoNumero from './Components/NuevoNumero/NuevoNumero';
+import Header from './Components/UI/Header';
+import Footer from './Components/UI/Footer';
 import {useState} from 'react';
 
 
@@ -24,10 +26,10 @@ function App() {
 
   return (
     <div>
-      
+      <Header />
       <NuevoNumero addNumero={addNumero} />
       <Numeros numeros={numeros} />
-      
+      <Footer />
     </div>
   );
 }

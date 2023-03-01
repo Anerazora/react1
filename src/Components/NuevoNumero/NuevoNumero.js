@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+
+
 const NuevoNumero = (props) => {
 
 
@@ -17,15 +19,19 @@ const NuevoNumero = (props) => {
     }
     const suma = function () {
         setResult(Number(numa) + Number(numb));
+        alert('Resultado de la suma');
     };
     const resta = function () {
         setResult(numa - numb);
+        alert('Resultado de la resta');
     };
     const multiplica = function () {
         setResult(numa * numb);
+        alert('Resultado de la multiplicacion');
     };
     const division = function () {
         setResult(numa / numb);
+        alert('Resultado de la division');
     };
 
 
@@ -39,6 +45,7 @@ const NuevoNumero = (props) => {
         setNuma('');
         setNumb('');
     }
+    
 
     return (
         <form onSubmit={submitHandler}>
