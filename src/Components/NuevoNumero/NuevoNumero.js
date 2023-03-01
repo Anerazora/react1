@@ -56,18 +56,15 @@ const NuevoNumero = (props) => {
                 <label>Numero B: </label>
                 <input onChange={numbHandler} type='number' value={numb} />
             </div>
-            <div>
-            <label>---------------------------------</label>
-            <label>Seleccione operación </label>
-            <label>------------------------------------------</label>
-            </div>
+            <p></p>
             <div>
 
-                <button onClick={suma}>Resultado de la suma</button>
-                <button onClick={resta}>Resultado de la resta</button>
-                <button onClick={multiplica}>Resultado de la multiplicacion</button>
-                <button onClick={division}>Resultado de la division</button>
+                <button onClick={suma}>SUMA</button>
+                <button onClick={resta}>RESTA</button>
+                <button onClick={multiplica}>MULTIPLICACION</button>
+                <button onClick={division}>DIVISION</button>
             </div>
+            <p></p>
             <div>
                 <label>Resultado: <span>{result}</span></label>
             </div>
